@@ -26,8 +26,8 @@
 ```
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>it</groupId>
-  <artifactId>is.maven</artifactId>
+  <groupId>itcast0907crmCache</groupId>
+  <artifactId>itcast0907crmCache</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
@@ -63,9 +63,6 @@
   			<artifactId>maven-jar-plugin</artifactId>
   			<version>2.4</version>
   		</plugin>
-  	</plugins>
-  </pluginManagement>	
-  <plugins>
   	<plugin>
   		<groupId>org.apache.maven.plugins</groupId>
   		<artifactId>maven-clean-plugin</artifactId>
@@ -80,6 +77,50 @@
   		<groupId>org.apache.maven.plugins</groupId>
   		<artifactId>maven-site-plugin</artifactId>
   		<version>3.3</version>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-clean-plugin</artifactId>
+  		<version>2.5</version>
+  	</plugin>
+  	</plugins>
+  </pluginManagement>	
+  <plugins>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-resources-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-compiler-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-clean-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-deploy-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-install-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-jar-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-site-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-surefire-plugin</artifactId>
+  	</plugin>
+  	<plugin>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-war-plugin</artifactId>
   	</plugin>
   </plugins>
   </build>
