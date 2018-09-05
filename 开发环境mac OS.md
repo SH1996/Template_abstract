@@ -128,4 +128,4 @@
 ```
 6).安装其它插件：STS，Angular JS，等
 
-7).myeclipse的安装破解说明：访问（链接:https://pan.baidu.com/s/1QW2zY-vhWsG91uGPSzg9iA  密码:ydoh）
+7).myeclipse的安装破解说明：访问（链接:https://pan.baidu.com/s/1QW2zY-vhWsG91uGPSzg9iA  密码:ydoh）.
